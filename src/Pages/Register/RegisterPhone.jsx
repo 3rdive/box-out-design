@@ -1,6 +1,6 @@
 import React from 'react'
 
-const RegisterP = () => {
+const RegisterPhone = () => {
   return (
     <div>
             <h1>Hy Register with Phone Number</h1>
@@ -8,4 +8,4 @@ const RegisterP = () => {
   )
 }
 
-export default RegisterP
+export default RegisterPhone

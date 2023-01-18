@@ -9,8 +9,8 @@ const Home = () => {
         <img src={LogoWhite} alt="" />
         <h1 className=" text-4xl text-center pt-14">Welcome to spatch</h1>
 
-        <Link to="/registere" className=" block  pt-12 text-xl" > Register With Email</Link>
-        <Link to="/registerp" className="text-xl">Register With Phone Number</Link>
+        <Link to="/registeremail" className=" block  pt-12 text-xl" > Register With Email</Link>
+        <Link to="/registerphone" className="text-xl">Register With Phone Number</Link>
        
        
       </section>

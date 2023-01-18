@@ -1,8 +1,11 @@
 import{ BrowserRouter as Router,  Routes, Route } from "react-router-dom"
 import "./app.css"
 import Home from "./Pages/Homepage/Home";
-import RegisterE from "./Pages/Register/RegisterE";
-import RegisterP from "./Pages/Register/RegisterP";
+import RegisterEmail from "./Pages/Register/RegisterEmail";
+import RegisterPhone from "./Pages/Register/RegisterPhone";
+
+
+
 
 function App() {
   return (
@@ -11,8 +14,8 @@ function App() {
    <Router>
     <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/registerp" element={<RegisterP/>} />
-      <Route path="/registere" element={<RegisterE/>} />
+      <Route path="/registeremail" element={<RegisterEmail/>} />
+      <Route path="/registerphone" element={<RegisterPhone/>} />
     </Routes>
    </Router>
 
