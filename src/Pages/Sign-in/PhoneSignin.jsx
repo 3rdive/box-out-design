@@ -12,7 +12,7 @@ const PhoneSignin = () => {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate("/", { replace: true });
+    navigate("/home", { replace: true });
   };
   return (
     <section className="bg-whiteGrey rounded-lg md:w-8/12 h-11/12 mx-auto my-8  p-3   text-center">

@@ -11,12 +11,12 @@ const EmailSignin = () => {
     const navigate = useNavigate();
 
     const handleClick = () => {
-      navigate("/", { replace: true });
+      navigate("/home", { replace: true });
     };
   return (
     <section className="bg-whiteGrey rounded-lg md:w-8/12 h-11/12 mx-auto my-8  p-3   text-center">
       <img src={Logo} alt="" />
-      <div className=" w-64 m-auto flex flex-col items-start  ">
+      <div className=" w-64 m-auto flex flex-col items-start">
          <button onClick={handleClick}>
           <FontAwesomeIcon
             className="text-darkPurple mt-12"
@@ -53,7 +53,7 @@ const EmailSignin = () => {
           </a>
         </form>
 
-        <button className="bg-darkPurple  rounded-lg p-2 text-white w-10/12 mt-8  ">
+        <button className="bg-darkPurple  rounded-lg p-2 text-white w-10/12 mt-8" >
           Sign in to spatch
         </button>
 
@@ -64,7 +64,6 @@ const EmailSignin = () => {
             and our{" "}
             <a href="#" className="text-darkPurple font-bold">Terms of Service</a>
           </p>
-          <p></p>
         </div>
       </div>
     </section>

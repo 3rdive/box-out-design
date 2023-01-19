@@ -14,7 +14,8 @@ module.exports = {
       colors:{
         darkPurple:"#7000F6",
         whiteGrey:"#E5E5E5",
-        grey:"#777F8C"
+        grey:"#777F8C",
+        green:"#02C963",
       },
 
       padding:{
