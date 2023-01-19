@@ -1,8 +1,9 @@
 import{ BrowserRouter as Router,  Routes, Route } from "react-router-dom"
 import "./app.css"
 import Home from "./Pages/Homepage/Home";
-import RegisterEmail from "./Pages/Register/RegisterEmail";
-import RegisterPhone from "./Pages/Register/RegisterPhone";
+import EmailSignin from "./Pages/Sign-in/EmailSignin";
+import PhoneSignin from "./Pages/Sign-in/PhoneSignin";
+
 
 
 
@@ -14,8 +15,8 @@ function App() {
    <Router>
     <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="/registeremail" element={<RegisterEmail/>} />
-      <Route path="/registerphone" element={<RegisterPhone/>} />
+      <Route path="/emailsignin" element={<EmailSignin/>} />
+      <Route path="/phonesignin" element={<PhoneSignin/>} />
     </Routes>
    </Router>
 

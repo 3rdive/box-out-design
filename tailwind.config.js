@@ -12,7 +12,9 @@ module.exports = {
     },
     extend: {
       colors:{
-        darkPurple:"#7000F6"
+        darkPurple:"#7000F6",
+        whiteGrey:"#E5E5E5",
+        grey:"#777F8C"
       },
 
       padding:{
@@ -20,11 +22,15 @@ module.exports = {
       },
 
       width:{
-        "128":"50vw"
+        "128":"50vw",
+        "8/12":"60vw",
+        "11/12": "80vw"
       },
 
       height:{
-        "128":"60vh"
+        "128":"60vh",
+        "11/12":"80vh",
+       " h-fit": "100vh"
       },
     },
   },
