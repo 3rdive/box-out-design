@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import Logo from "../../img/Logo.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
@@ -7,11 +8,21 @@ import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 
 const EmailSignin = () => {
+    const navigate = useNavigate();
+
+    const handleClick = () => {
+      navigate("/", { replace: true });
+    };
   return (
     <section className="bg-whiteGrey rounded-lg md:w-8/12 h-11/12 mx-auto my-8  p-3   text-center">
       <img src={Logo} alt="" />
       <div className=" w-64 m-auto flex flex-col items-start  ">
-        <FontAwesomeIcon className="text-darkPurple mt-12" icon={faArrowLeft} />
+         <button onClick={handleClick}>
+          <FontAwesomeIcon
+            className="text-darkPurple mt-12"
+            icon={faArrowLeft}
+          />
+        </button>
         <h1 className="mt-8 text-2xl font-bold">Sign in to spatch.</h1>
         <p className="text-grey sm:text-xl md:text-sm">
           Please enter your sign in details
