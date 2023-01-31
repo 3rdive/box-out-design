@@ -13,9 +13,11 @@ module.exports = {
     extend: {
       colors:{
         darkPurple:"#7000F6",
+        deepPurple:"#6001D2",
         whiteGrey:"#E5E5E5",
         grey:"#777F8C",
         green:"#02C963",
+        yellow:"#FF9E00",
       },
 
       padding:{

@@ -66,9 +66,13 @@ const PhoneConfirmation = () => {
                 </button>
             </div>
 
-            <Link className="text-darkPurple mt-2" to="/register">
+            <Link className="text-darkPurple mt-2" to="/sidebar">
                 Or Restart
             </Link>
+
+            {/* <Link className="text-darkPurple mt-2" to="/register">
+                Or Restart
+            </Link> */}
         </div>
       </div>
     </section>

@@ -19,9 +19,9 @@ const RegisterPhone = () => {
     navigate("/register", { replace: true });
   };
   return (
-    <section className="bg-whiteGrey rounded-lg md:w-11/12   mx-auto md:my-8  p-3 pb-4 text-center sm:w-fit">
+    <section className="bg-whiteGrey rounded-lg md:w-11/12 h-11/12  mx-auto md:my-8  p-3  text-center sm:w-fit">
       <img src={Logo} alt="" />
-      <div className=" m-auto flex flex-col ">
+      <div className=" m-auto -mt-8 flex flex-col ">
         <div className=" flex flex-col items-start   m-auto ">
           <button onClick={handleClick}>
             <FontAwesomeIcon
