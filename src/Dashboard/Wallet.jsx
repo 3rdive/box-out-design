@@ -2,8 +2,8 @@ import React from 'react'
 
 const Wallet = () => {
   return (
-    <div>Wallet</div>
+    <div className='centered 4xl '> Wallet</div>
   )
 }
 
-export default Wallet
+export default Wallet 

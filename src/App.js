@@ -10,10 +10,13 @@ import RegisterEmail from "./Pages/Register/RegisterEmail";
 import RegisterPhone from "./Pages/Register/RegisterPhone";
 import PhoneConfirmation from "./Pages/Register/PhoneConfirmation";
 import Welcome from "./Pages/Register/Welcome";
-import Sidebar from "./Dashboard/Sidebar";
-import { Layout } from "./Dashboard/Layout";
-import Navbar from "./Dashboard/Navbar";
 import MainPage from "./Dashboard/MainPage";
+import Wallet from "./Dashboard/Wallet";
+import Request from "./Dashboard/Request";
+import Contact from "./Dashboard/Contact";
+import Logout from "./Dashboard/Logout";
+import Account from "./Dashboard/Account";
+import History from "./Dashboard/History";
 
 function App() {
   return (
@@ -21,7 +24,7 @@ function App() {
     
    <Router>
     <Routes>
-      <Route path="/" element={<MainPage/>} />
+      <Route path="*" element={<MainPage/>} />
       {/* <Route path="/" element={<Main/>} /> */}
       <Route path="/home" element={<Home/>} />
       <Route path="/register" element={<Register/>} />
@@ -32,8 +35,6 @@ function App() {
       <Route path="/verification" element={<Verification/>} />
       <Route path="/emailsignin" element={<EmailSignin/>} />
       <Route path="/phonesignin" element={<PhoneSignin/>} />
-     
-      {/* <Route path="/sidebar" element={<Sidebar/>} /> */}
     </Routes>
    </Router>
 
