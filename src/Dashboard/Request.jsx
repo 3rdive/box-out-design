@@ -18,6 +18,7 @@ const Request = () => {
           </h2>
           <div className=" mt-4  text-white">
             <div className="flex ">
+              <Link to="/sameday">
               <button className="bg-deepPurple w-28 md:w-52 p-2 flex flex-col rounded-lg">
                 <img
                   src={Fillp}
@@ -26,6 +27,7 @@ const Request = () => {
                 />
                 <span className="pt-12">Same day</span>
               </button>
+              </Link>
 
               <button className="bg-lightBlue w-28 ml-2 p-2 flex flex-col rounded-lg">
                 <img
@@ -69,4 +71,3 @@ const Request = () => {
 
 export default Request;
 
-// height of h-screen

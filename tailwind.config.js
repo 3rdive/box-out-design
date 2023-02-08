@@ -21,7 +21,10 @@ module.exports = {
         lightBlue:"#15B2E1",
         lightGreen:"#02C963",
         lightYellow:"#FFB947",
-        
+        imitate:"#F1F5FB",
+        bColor:"#F4F4F5",
+        deepGreen:"#0E939B",  
+        borderColor:"#D2D4D9",  
       },
 
       padding:{
@@ -29,8 +32,19 @@ module.exports = {
         "80":"16rem",
       },
 
+      spacing:{
+        "52":"14rem",
+        "8/12":"60vw",
+       "11/12": "80vw",
+        "90":"90vw",
+        "w-fit": "100vw"
+      },
+
       width:{
         "52":"14rem",
+        "55":"17.6rem",
+        "40":"40vw",
+        "72":"18.5rem",
         "128":"50vw",
         "8/12":"60vw",
         "11/12": "80vw",

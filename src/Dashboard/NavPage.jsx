@@ -6,6 +6,7 @@ import Account from "./Account"
 import Logout from "./Logout"
 import Contact from "./Contact"
 import Wallet from './Wallet'
+import SameDay from './SameDay'
 
 
 const NavPage = () => {
@@ -19,6 +20,7 @@ const NavPage = () => {
       <Route path="/account" element={<Account/>} />
       <Route path="/logout" element={<Logout/>} />
       <Route path="/contact" element={<Contact/>} />
+      <Route path="/sameday" element={<SameDay/>} />
      </Routes>
     </section>
   )
