@@ -28,17 +28,17 @@ const Wallet = () => {
             </div>
 
             <div className='mt-8'>
-              <button className='bg-bColor w-72 md:w-40 flex flex-col p-6 rounded-xl'>
+              <span className='bg-bColor w-72 md:w-40 flex flex-col p-6 rounded-xl'>
                 <span className='text-grey md:text-sm'>Balance</span>
                 <h2 className='text-2xl font-black'>NGN 10,OOO</h2>
                 <div className='pt-12'>
                 <button className='flex bg-darkPurple rounded-full px-6 py-0.5  text-white'>
-                  <BsFillPlusCircleFill className='text-deepPurple text-3xl -ml-6 '/>
+                  {/* <BsFillPlusCircleFill className='text-deepPurple w-12 absolute  '/> */}
                   <span className='ml-2 mt-1'>Add money</span>
                 </button>
 
                 </div>
-              </button>
+              </span>
             </div>
 
             <div className='md:flex space-x-3 mt-4 '>

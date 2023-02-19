@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React  from "react";
 import { Link } from "react-router-dom";
 import { BiArrowBack } from "react-icons/bi";
 import { AiOutlineInfoCircle } from "react-icons/ai";
@@ -37,7 +37,7 @@ const Account = () => {
           </div>
 
           <div className="flex space-x-2 mt-6">
-            <img src={Face} className="w-14" />
+            <img src={Face} alt="" className="w-14 " />
             <a href="#" className="text-deepPurple m-4">
               Change Profile Image
             </a>
@@ -54,7 +54,7 @@ const Account = () => {
                     <input
                       className="bg-transparent w-12 font-bold"
                       type="text"
-                      Value="Fisayo"
+                      value="Fisayo"
                     />
                     <FaRegUser className="-ml-4 text-grey" />
                   </div>
@@ -68,7 +68,7 @@ const Account = () => {
                     <input
                       className="bg-transparent w-14 font-bold"
                       type="text"
-                      Value="Ahmad"
+                      value="Ahmad"
                     />
                     <FaRegUser className="-ml-4 text-grey" />
                   </div>
@@ -81,7 +81,7 @@ const Account = () => {
               <input
                 className="w-full focus:outline-none bg-transparent"
                 type="text"
-                Value="+234 708 707 7113"
+                value="+234 708 707 7113"
               />
               <div className="absolute top-0 right-0 flex items-center px-3 py-2">
                 <img src={flag} alt="" className="mt-4" />
@@ -93,7 +93,7 @@ const Account = () => {
               <input
                 className="w-full focus:outline-none bg-transparent"
                 type="text"
-                Value="fisayoahmad@gmail.com"
+                value="fisayoahmad@gmail.com"
               />
               <div className="absolute top-0 right-0 flex items-center px-3 py-2">
                 <GrMail className="mt-4 text-grey" />
@@ -107,7 +107,7 @@ const Account = () => {
               <input
                 className="w-full focus:outline-none bg-transparent"
                 type="text"
-                Value="*************************"
+                value="*************************"
               />
               <div className="absolute top-0 right-0 flex items-center px-3 py-2">
                 <BiLock className="mt-4 text-grey text-xl" />

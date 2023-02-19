@@ -62,7 +62,7 @@ const Request = () => {
         </div>
 
         <button className=" hidden md:flex justify-self-end self-end w-20 mx-8/12 my-52">
-          <BsFillPlusCircleFill className="text-deepPurple font-bold text-4xl" />
+          <BsFillPlusCircleFill className="text-4xl" />
         </button>
       </div>
     </section>

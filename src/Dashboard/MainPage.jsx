@@ -19,15 +19,15 @@ function MainPage() {
           <div className="logo"></div>
         </div>
 
-        <div className="md:col-span-9  bg-whiteGrey h-screen pl-2 rounded-r-lg md:col-span-9">
-          <NavPage />
+        <div className="md:col-span-9  bg-whiteGrey pl-2 rounded-r-lg md:col-span-9 ">
+          <NavPage className="h-fit" />
         </div>
       </div>
 
       {/* Small Screen */}
 
       <div className="block md:hidden  ">
-        <div className="w-90 m-auto p-6 mt-2 bg-darkPurple text-white rounded-xl">
+        <div className="w-90 h-fit m-auto p-6 mt-2 bg-darkPurple text-white rounded-xl">
           <div onClick={handleNav} className="block md:hidden">
             {nav ? (
               <AiOutlineClose className="text-white text-xl font-bold" />
@@ -36,7 +36,7 @@ function MainPage() {
             )}
           </div>
 
-          <div className="block md:hidden left-0 w-full text-grey absolute">
+          <div className="block md:hidden  left-0 w-full text-grey absolute">
             <div className=" ">
               {nav &&
                 SidebarData.map((item, index) => {
@@ -44,7 +44,7 @@ function MainPage() {
                     <div key={index} className="">
                       <NavLink
                         to={item.path}
-                        className="flex justify-start items-center text-lg font-bold pl-4  h-full w-full gap-x-2 space-x-1 space-y-4 py-6 bg-white text-deepPurple"
+                        className="flex justify-start bg-transparent items-center text-lg font-bold pl-4 w-full gap-x-2 space-x-1 space-y-4 py-6 bg-white text-deepPurple"
                       >
                         <span className="mt-4">{item.icon}</span>
                         <span>{item.title}</span>
@@ -62,7 +62,7 @@ function MainPage() {
           </div>
         </div>
 
-        <div className="md:hidden w-90 m-auto ">
+        <div className="md:hidden w-90  m-auto ">
           <NavPage />
         </div>
       </div>
